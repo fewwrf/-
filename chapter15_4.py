@@ -4,6 +4,7 @@ from plotly import offline
 
 class Die:
     def __init__(self,num_sides=6) -> None:
+        '''骰子面数默认为6'''
         self.num_sides = num_sides
 
 
